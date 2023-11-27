@@ -1,0 +1,18 @@
+we are creating users, using from file with list of users 
+steps :
+   1. ansible-vault encrypt_string 'd3v3l0p3r'
+      ansible-vault encrypt_string 'adm$n$'
+
+encryted string then pasted the output in yaml 
+
+we have file list of users 
+
+playbooks/data/users.yml 
+admins:
+  - rob
+  - david
+  - joy
+
+developers:
+  - tim
+  - ray
